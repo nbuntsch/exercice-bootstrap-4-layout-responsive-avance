@@ -18,6 +18,7 @@
 
 html {
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -56,6 +57,10 @@ video {
 // base rules
 // ==================================== */
 
+.container {
+  padding: 16px 0;
+}
+
 .header-maquette-3 {
   background: #2b2d42;
 }
@@ -72,10 +77,13 @@ video {
 .main-maquette-3,
 .header-maquette-3 {
   padding: 8px 0;
-  font-family: Arial, Helvetica, sans-serif;
   .col,
   [class^="col-"] {
     border-color: #fff;
     background-color: #d8d8d899;
   }
+}
+
+p {
+  padding-bottom: 11px;
 }
